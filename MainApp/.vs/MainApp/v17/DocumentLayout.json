@@ -1,0 +1,645 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\habrnewsbackgroundgetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\habrnewsbackgroundgetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\chats\\chats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\chats\\chats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\chats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\chats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\habrtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\habrtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\habrnews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\habrnews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\redirectifauthenticatedattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\redirectifauthenticatedattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\chats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\chats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\chats\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\chats\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|c:\\users\\cherokc\\desktop\\gptnews\\mainapp\\mainapp\\wwwroot\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F339F96-D318-486D-A423-1E03006DCD14}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\wwwroot\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainApp\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainApp\\Message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:16:36.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\Chat.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\Chat.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\Chat.cs",
+              "RelativeToolTip": "MainApp\\Models\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:40:58.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\Message.cs",
+              "RelativeToolTip": "MainApp\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:40:31.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\ChatsController.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\ChatsController.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\ChatsController.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\ChatsController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwK0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:51:11.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chats.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Chats.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Chats\\Chats.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Chats.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Chats\\Chats.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T21:48:47.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Create.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Chats\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Create.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Chats\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:53:13.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HabrNewsBackgroundGetter.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\HabrNewsBackgroundGetter.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\HabrNewsBackgroundGetter.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\HabrNewsBackgroundGetter.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\HabrNewsBackgroundGetter.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwD0AAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:43:06.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Program.cs",
+              "RelativeDocumentMoniker": "MainApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Program.cs",
+              "RelativeToolTip": "MainApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:17:22.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\ChatViewModel.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\ChatViewModel.cs",
+              "RelativeToolTip": "MainApp\\Models\\ChatViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:27:58.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:55:37.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "MainApp\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:00:05.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:56:08.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowD0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:02:38.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MainApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\appsettings.json",
+              "RelativeToolTip": "MainApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T10:01:49.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HabrNews.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\HabrNews.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\HabrNews.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\HabrNews.cs",
+              "RelativeToolTip": "MainApp\\Models\\HabrNews.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:40:56.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HabrTag.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\HabrTag.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\HabrTag.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\HabrTag.cs",
+              "RelativeToolTip": "MainApp\\Models\\HabrTag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:40:57.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\User.cs",
+              "RelativeToolTip": "MainApp\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:40:58.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:34:02.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RedirectIfAuthenticatedAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\RedirectIfAuthenticatedAttribute.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\RedirectIfAuthenticatedAttribute.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\RedirectIfAuthenticatedAttribute.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\RedirectIfAuthenticatedAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T15:27:26.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAcwNkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T20:31:56.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T17:03:57.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T15:51:30.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "MainApp\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "MainApp\\Controllers\\NewsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:15:44.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T17:16:12.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\News\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T21:14:58.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MainApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MainApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:55:56.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Index.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Chats\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Index.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Chats\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T17:49:31.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Chats\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Edit.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Chats\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:09:59.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Chats\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Chats\\Delete.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Chats\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T17:49:15.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Dockerfile",
+              "RelativeDocumentMoniker": "MainApp\\Dockerfile",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Dockerfile",
+              "RelativeToolTip": "MainApp\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-16T12:52:41.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "MainApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-10T21:36:00.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MainApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MainApp\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-14T18:56:19.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "MainApp\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "MainApp\\Views\\Account\\Logout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T15:53:43.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Message.cs",
+              "RelativeDocumentMoniker": "MainApp\\Message.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\Message.cs",
+              "RelativeToolTip": "MainApp\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:50:32.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "chat.js",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "MainApp\\wwwroot\\js\\chat.js",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "MainApp\\wwwroot\\js\\chat.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-15T10:47:09.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-16T12:49:48.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "chat.html",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\wwwroot\\chat.html",
+              "RelativeDocumentMoniker": "MainApp\\wwwroot\\chat.html",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\MainApp\\MainApp\\wwwroot\\chat.html",
+              "RelativeToolTip": "MainApp\\wwwroot\\chat.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-15T10:46:45.161Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

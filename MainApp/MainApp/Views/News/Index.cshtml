@@ -1,0 +1,14 @@
+﻿@model List<HabrNews>
+@{
+    foreach(var news in Model)
+    {
+        <div>
+            <a style="font-weight: bold;" href="@news.Link">
+                @news.Title
+            </a>
+            <div>
+                @news.Description
+            </div>
+        </div>
+    }
+}

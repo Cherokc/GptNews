@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|c:\\users\\cherokc\\desktop\\gptnews\\gptconnectapi\\gptconnectapi\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|solutionrelative:gptconnectapi\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|c:\\users\\cherokc\\desktop\\gptnews\\gptconnectapi\\gptconnectapi\\gpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|solutionrelative:gptconnectapi\\gpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|c:\\users\\cherokc\\desktop\\gptnews\\gptconnectapi\\gptconnectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|solutionrelative:gptconnectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|c:\\users\\cherokc\\desktop\\gptnews\\gptconnectapi\\gptconnectapi\\gptconnectapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|solutionrelative:gptconnectapi\\gptconnectapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|c:\\users\\cherokc\\desktop\\gptnews\\gptconnectapi\\gptconnectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|solutionrelative:gptconnectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|c:\\users\\cherokc\\desktop\\gptnews\\gptconnectapi\\gptconnectapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{993CEF36-18C0-4CFF-8FC3-1584BE65E1C3}|GptConnectApi\\GptConnectApi.csproj|solutionrelative:gptconnectapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GptConnectApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\appsettings.Development.json",
+              "RelativeToolTip": "GptConnectApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T13:23:36.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\appsettings.json",
+              "RelativeDocumentMoniker": "GptConnectApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\appsettings.json",
+              "RelativeToolTip": "GptConnectApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T20:03:35.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GptConnectApi.http",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\GptConnectApi.http",
+              "RelativeDocumentMoniker": "GptConnectApi\\GptConnectApi.http",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\GptConnectApi.http",
+              "RelativeToolTip": "GptConnectApi\\GptConnectApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-14T10:14:53.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\Program.cs",
+              "RelativeDocumentMoniker": "GptConnectApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\Program.cs",
+              "RelativeToolTip": "GptConnectApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:14:36.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GPT.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\GPT.cs",
+              "RelativeDocumentMoniker": "GptConnectApi\\GPT.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\GPT.cs",
+              "RelativeToolTip": "GptConnectApi\\GPT.cs",
+              "ViewState": "AQIAAOUBAAAAAAAAAAAcwB0CAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:14:37.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GPTController.cs",
+              "DocumentMoniker": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\Controllers\\GPTController.cs",
+              "RelativeDocumentMoniker": "GptConnectApi\\Controllers\\GPTController.cs",
+              "ToolTip": "C:\\Users\\Cherokc\\Desktop\\gptnews\\GptConnectApi\\GptConnectApi\\Controllers\\GPTController.cs",
+              "RelativeToolTip": "GptConnectApi\\Controllers\\GPTController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:14:31.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

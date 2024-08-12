@@ -1,0 +1,6 @@
+@HabrParser_HostAddress = http://localhost:5226
+
+GET {{HabrParser_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

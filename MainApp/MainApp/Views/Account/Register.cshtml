@@ -1,0 +1,54 @@
+﻿@model User
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Стили для центрирования формы */
+        .input-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Выравнивание по вертикали */
+        }
+
+        .welcome-block {
+            padding: 20px; /* Отступы внутри блока */
+            text-align: center; /* Выравнивание текста по центру */
+        }
+
+        .welcome-block h1 {
+            color: #333; /* Цвет текста */
+            font-size: 24px; /* Размер шрифта */
+            margin: 0; /* Убираем отступы у заголовка */
+        }
+    </style>
+</head>
+<body>
+    <div class="input-container">
+        <form asp-action="Register" method="post">
+            <div class="welcome-block">
+                <h1>Регистрация</h1>
+            </div>
+            <div class="form-group">
+                <label asp-for="Username">Юзернейм</label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Пароль</label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Регистрация</button>
+            <p class="mt-3">
+                Есть аккаунт?
+                <a asp-action="Login">Авторизуйтесь!</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
+

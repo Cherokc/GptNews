@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WneUz5pp9fBYAi7ME4qcc7BT3sr6FwEYMJZRqqErn3U=",
+  "Source": "GptConnectApi",
+  "BasePath": "_content/GptConnectApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

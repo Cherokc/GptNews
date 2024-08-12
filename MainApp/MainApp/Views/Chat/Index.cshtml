@@ -1,0 +1,217 @@
+﻿@model ChatViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Messages</title>
+    <style>
+        /* CSS стили для сообщений */ 
+        /* Сброс отступов для body и html */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .message-container {
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .sender-name {
+            font-weight: bold;
+        }
+
+        .message-content {
+            margin-left: 10px;
+        }
+
+        .message-time {
+            font-size: 0.8em;
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .panels {
+            display: flex;
+            flex-direction: row;
+            height: 100vh; /* Высота контейнера равна высоте окна браузера */
+        }
+
+        .left-panel {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 200px; /* Устанавливаем ширину левого блока */
+            top: 0; /* Растягиваем левый блок от верхней границы экрана */
+            background-color: #f8f9fa; /* Цвет фона левого блока */
+            overflow-y: auto; /* Разрешаем прокрутку по вертикали, если содержимое не помещается */
+            border-top: 1px solid #ccc; /* Добавляем верхнюю границу */
+            z-index: 1000; /* Устанавливаем z-index, чтобы левый блок находился поверх других элементов */
+        }
+
+        .right-panel {
+            margin-left: 200px; /* Смещаем правый блок, чтобы не пересекаться с левым блоком */
+            flex-grow: 1;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .chat-messages {
+            flex-grow: 1;
+            overflow-y: auto; /* Разрешаем прокрутку по вертикали, если содержимое не помещается */
+            padding: 10px;
+            margin-bottom: 110px; /* Добавляем отступ внизу, чтобы сообщения не пересекались с формой отправки */
+        }
+
+        /* Стили для списка */
+        #myList {
+            list-style-type: none; /* Убираем маркеры у списка */
+            padding: 0;
+        }
+
+        #myList li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s; /* Добавляем плавный переход при изменении фона */
+        }
+
+        #myList li:hover {
+            background-color: #f0f0f0; /* Изменяем фон элемента при наведении */
+            cursor: pointer;
+        }
+
+        a {
+            color: inherit; /* Наследовать цвет текста от родительского элемента */
+            text-decoration: none; /* Убрать подчеркивание */
+        }
+
+        .form-group-container {
+            margin-bottom: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff; /* Цвет фона для формы */
+            padding: 10px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Тень для формы */
+            z-index: 1001; /* Устанавливаем z-index, чтобы форма находилась поверх всех элементов */
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .form-control {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .btn {
+            flex-shrink: 0;
+        }
+
+        .new-chat-button {
+            text-align: center;
+        }
+
+        .btn-new-chat {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition-duration: 0.4s;
+        }
+
+        .btn-new-chat:hover {
+            background-color: #45a049;
+        }
+
+        .datalabel {
+            padding-left: 10px;
+            padding-top: 10px;
+            color: dimgray;
+            font-size: 14px;
+            font-weight:500;
+        }
+    </style>
+</head>
+<body>
+    <div class="panels">
+        <div class="left-panel resizable" id="left-panel">
+            <a asp-action="Index" asp-route-id="">
+                <div class="new-chat-button">
+                    <button class="btn-new-chat">Новый чат</button>
+                </div>
+            </a>
+            <ul id="myList">
+                @await Html.PartialAsync("/Views/Chats/Chats.cshtml", Model)
+            </ul>
+        </div>
+        <div class="right-panel flex-fill" id="rightPanel">
+            <div class="chat-messages" id="chat-messages">
+                @foreach (var message in Model.Messages)
+                {
+                    <div class="message-container">
+                        <span class="sender-name">@(message.By ? "User" : "GPT ")</span>
+                        <span class="message-time">@message.Time.ToString("HH:mm dd.MM.yyyy")</span>
+                        <span class="message-content">
+                            @foreach (var p in message.Text.Split("\\n"))
+                            {
+                                <p>@Html.Raw(p)</p>
+                            }
+                        </span>
+                    </div>
+                }
+            </div>
+
+            <div class="form-group-container">
+                <form asp-action="Send" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <input asp-for="ChatId" type="hidden" />
+                    <input asp-for="Messages" type="hidden" />
+                    <input asp-for="Chats" type="hidden" />
+                    <input asp-for="LastTimeMessage" type="hidden" value = "null" />
+
+                    <div class="form-group">
+                        <input asp-for="NewMessageText" placeholder="Введите сообщение..." class="form-control" />
+                        <span asp-validation-for="NewMessageText" class="text-danger"></span>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+
+            @if(Model.Success != true)
+            {
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        alert("Ошибка обработки запроса.");
+                    });
+                </script>
+            }
+
+            <script>
+                window.onload = function () {
+                    var chatMessages = document.getElementById('chat-messages');
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                };
+            </script>
+        </div>
+    </div>
+</body>
+</html>

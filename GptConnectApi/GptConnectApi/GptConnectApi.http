@@ -1,0 +1,6 @@
+@GptConnectApi_HostAddress = http://localhost:5201
+
+GET {{GptConnectApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

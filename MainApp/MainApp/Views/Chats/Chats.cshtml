@@ -1,0 +1,74 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model ChatViewModel
+@{
+    var chats = (Model.Chats, Model.LastTimeMessage);
+    for (int i = 0; i < Model.Chats.Count() - 1; i++)
+    {
+        for (int j = i + 1; j < Model.Chats.Count(); j++)
+            if (chats.Item2[j] < chats.Item2[i])
+            {
+                var temp = (chats.Item1[j], chats.Item2[j]);
+                chats.Item1[j] = chats.Item1[i];
+                chats.Item2[j] = chats.Item2[i];
+                chats.Item1[i] = temp.Item1;
+                chats.Item2[i] = temp.Item2;
+            }
+    }
+    DateTime dt = DateTime.Today;
+    var datesLabels = new[] { "сегодня", "вчера", "последние 7 дней", "последний месяц", "ранее" };
+    var dates = new[] { 0, -1, -7, -30 };
+    var groupedDates = new List<List<Chat>>(5) { new List<Chat>(), new List<Chat>(), new List<Chat>(), new List<Chat>(), new List<Chat>() };
+    for (int i = 0; i < Model.Chats.Count(); i++)
+    {
+        if (Model.LastTimeMessage[i] >= dt)
+            groupedDates[0].Add(Model.Chats[i]);
+        else if (Model.LastTimeMessage[i] >= dt.AddDays(-1))
+            groupedDates[1].Add(Model.Chats[i]);
+        else if (Model.LastTimeMessage[i] >= dt.AddDays(-7))
+            groupedDates[2].Add(Model.Chats[i]);
+        else if (Model.LastTimeMessage[i] >= dt.AddDays(-30))
+            groupedDates[3].Add(Model.Chats[i]);
+        else
+            groupedDates[4].Add(Model.Chats[i]);
+    }
+}
+@{
+    for(int i = 0; i < groupedDates.Count(); i++)
+    {
+        if(groupedDates[i].Count > 0)
+        {
+            <div class="datalabel">@datesLabels[i]</div>
+        }
+        foreach (var item in groupedDates[i])
+        {
+            @if (item.Id == Model.ChatId)
+            {
+                <li class="d-flex justify-content-between align-items-center" style="background-color:darkgray">
+                    <a asp-controller="Chat" asp-route-id="@item.Id">
+                        @Html.DisplayFor(modelItem => item.Username)
+                        @Html.DisplayFor(modelItem => item.Source)
+                        @Html.DisplayFor(modelItem => item.GPT)
+                        <a asp-controller="Chats" asp-action="Edit" asp-route-id="@item.Id">
+                            <button>...</button>
+                        </a>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <a asp-controller="Chat" asp-route-id="@item.Id">
+                    <li class="d-flex justify-content-between align-items-center">
+                        @Html.DisplayFor(modelItem => item.Username)
+                        @Html.DisplayFor(modelItem => item.Source)
+                        @Html.DisplayFor(modelItem => item.GPT)
+                        <a asp-controller="Chats" asp-action="Edit" asp-route-id="@item.Id">
+                            <button>...</button>
+                        </a>
+                    </li>
+                </a>
+            }
+        }
+    }
+}

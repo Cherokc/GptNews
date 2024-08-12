@@ -1,0 +1,54 @@
+/* _content/MainApp/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-ycrhou6o6d] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ycrhou6o6d] {
+  color: #0077cc;
+}
+
+.btn-primary[b-ycrhou6o6d] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ycrhou6o6d], .nav-pills .show > .nav-link[b-ycrhou6o6d] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-ycrhou6o6d] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ycrhou6o6d] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ycrhou6o6d] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ycrhou6o6d] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ycrhou6o6d] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    z-index: 1000; /* Убедитесь, что футер находится поверх остальных элементов */
+}

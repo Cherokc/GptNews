@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Authorization
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] GPT NEWS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MainApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="float-center">&copy; 2024 - GPT NEWS BY GRIGORY CHIRKOV </div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="float-right">Аккаунт: @User.Identity.Name | <a asp-area="" asp-controller="Account" asp-action="Logout">Выйти</a> </div>
+            }
+            <div class="float-right">
+                <a asp-area="" asp-controller="News" asp-action="Index">Новости</a> 
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

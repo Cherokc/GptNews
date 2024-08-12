@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=root
+    image: postgres:12.19-alpine3.19    
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 1s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d/
+
+  gptapi:
+    container_name: gptapi
+    build:
+      context: ./GptConnectApi/
+      dockerfile: Dockerfile
+    ports:
+      - "32782:8080"
+      - "32783:8081"
+    environment:
+      LC_ALL: "ru_RU.UTF-8"
+      LANG: "ru_RU.UTF-8"
+      LANGUAGE: "ru_RU.UTF-8"
+    healthcheck:
+      test: ["CMD", "curl", "-f"]
+      interval: 1s
+      timeout: 5s
+      retries: 5
+
+  mainapp:
+    container_name: mainapp
+    build:
+      context: ./MainApp/
+      dockerfile: Dockerfile
+    ports:
+      - "32780:8080"
+      - "32781:8081"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  habrparser:
+    container_name: habrparser
+    build:
+      context: ./HabrParser/
+      dockerfile: Dockerfile
+    ports:
+      - "32784:8080"
+      - "32785:8081"
